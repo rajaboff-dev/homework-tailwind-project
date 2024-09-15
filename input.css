@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;    
+
+*{
+    font-family: 'Rubik', sans-serif;
+}
+p,li{
+    color: #4F5665;
+}
+h1,h2,h3,h4,h5,h6{
+    color: #0B132A;
+}
+.swiper-pagination-bullet-active{
+    background-color: #F53838 !important;
+}
+.btn{
+    @apply border-mainColor border-2 text-mainColor px-12 py-2 rounded-full duration-150 hover:bg-mainColor hover:text-white
+}
